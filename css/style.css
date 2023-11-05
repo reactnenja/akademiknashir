@@ -1,0 +1,199 @@
+@import url(./min-res.css);
+
+/* roboto-condensed-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-condensed-v27-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-condensed-v27-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-condensed-v27-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-condensed-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-condensed-v27-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* unversal style tag */
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* unversal style tag */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto Condensed";
+}
+
+/* CONTAINER START SECTION */
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+/* CONTAINER END SECTION */
+
+/* HEADER SECTIONS STYLE */
+.header {
+  width: 100%;
+}
+.navbar {
+  padding: 16px 0px;
+  background-color: #fff;
+  border-top: 5px solid #ff7500;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-link {
+  margin-right: 263px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  list-style-type: none;
+}
+.nav-item {
+}
+.nav-link {
+  padding: 4px 0px;
+  color: #000;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background: #ff7500;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+/* HEADER SECTIONS STYLE */
+
+.btn-nav {
+  padding: 12px 24px;
+  background-color: #ff7500;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border: 2px solid #ff7500;
+  border-radius: 4px;
+  transition: all 0.8s;
+}
+
+.btn-nav:hover {
+  background: #000;
+  border-color: #000;
+  color: #ff7500;
+}
+
+.hero__section {
+  background: #000;
+  width: 100%;
+  height: 488px;
+  padding: 40px 0px;
+}
+.hero__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hero__flex-left {
+  margin-top: 40px;
+  color: white;
+  width: 387px;
+  height: 328px;
+}
+.hero__flex-border {
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+  margin-bottom: 40px;
+}
+.hero__flex-heading {
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  letter-spacing: 0.5px;
+}
+
+.hero__flex-paragriph {
+  margin-bottom: 32px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.5px;
+}
+.btn-check {
+  padding: 12px 24px;
+  background: #ff7500;
+  border: 2px solid #ff7500;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: all 0.9s;
+}
+.btn-check:hover {
+  background: transparent;
+  color: #ff7500;
+}
