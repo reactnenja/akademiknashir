@@ -139,7 +139,9 @@ body {
   border-color: #000;
   color: #ff7500;
 }
-
+.btn-nav > i {
+  font-size: 22px;
+}
 .hero__section {
   background: #000;
   width: 100%;
@@ -256,4 +258,65 @@ body {
 }
 /* MAIN ROWS */
 
+/* action__main-page */
+.action__main-page {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 419px;
+  border-radius: 12px;
+  background: #252420;
+  padding: 64px 0px 64px 64px;
+  margin: 120px 0px 160px 0px;
+  gap: 92px;
+}
+.action__left {
+  width: 440px;
+  height: 291px;
+}
+
+.action__left-heading {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+}
+.action__left-paragriph {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+}
+.action__left-paragriph > span {
+  color: #ff7500;
+}
+.action__left-btn {
+  padding: 12px 24px;
+  background-color: #ff7500;
+  color: white;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  transition: all 0.9s ease;
+  border: 2px solid #ff7500;
+}
+.action__left-btn:hover {
+  background-color: transparent;
+  color: #ff7500;
+}
+.action__right {
+  padding-right: 64px;
+}
+.action__right > img {
+  margin-top: -64px;
+  width: 440px;
+  height: 440px;
+}
+/* action__main-page */
 /* MAIN END */
