@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akademik Nashr |web-site</title>
     <link rel="stylesheet" href="css/style.css" />
+    <!-- SITE FONTSAWESOME LINKS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -12,148 +13,168 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- SITE FONTSAWESOME LINKS -->
   </head>
   <body>
-    <!-- HEADER SECTION STRUCTURA START -->
-    <header class="header">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navigation">
-            <a href="#" class="logo-link">
-              <img src="img/logo-site.svg" alt="web site logo" />
+    <!-- SITE HEADER /START/ -->
+    <header class="site-header">
+      <!-- SITE NAVBAR SECTION -->
+      <nav class="site-navbar">
+        <div class="site-container">
+          <div class="site-navigation">
+            <a href="#" class="site-link">
+              <img
+                src="img/logo-site.svg"
+                class="site-logo-one"
+                alt="site logo"
+              />
+              <img src="img/logo.svg" class="site-logo-two" alt="site logo" />
             </a>
-            <ul class="nav-list">
-              <li class="nav-item">
-                <a href="#" class="nav-link">bosh sahifa</a>
+            <ul class="site-list">
+              <li class="site-items">
+                <a href="#" class="site-nav-link site-bars-link">Bosh sahifa</a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">kitoblar</a>
+              <li class="site-items">
+                <a href="#" class="site-nav-link">Kitoblar</a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">aksiyalar</a>
+              <li class="site-items">
+                <a href="#" class="site-nav-link">Kitoblar</a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">kontaktlar</a>
+              <li class="site-items">
+                <a href="#" class="site-nav-link">Kontaktlar</a>
               </li>
-              <button type="button" class="btn-nav">Ruyhatdan utish</button>
             </ul>
-            <button class="btn-nav">
-              <i class="fa-solid fa-bars"></i>
-            </button>
+            <div class="group-btn">
+              <button type="button" class="site-btn">Ro’yxatdan o’tish</button>
+              <button class="site-bars">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
           </div>
         </div>
       </nav>
-      <div class="res__navbar">
-        <ul class="res__nav-list">
-          <li class="res__nav-item">
-            <a href="#" class="res_nav-link">bosh sahifa</a>
-          </li>
-          <li class="res__nav-item">
-            <a href="#" class="res_nav-link">kitoblar</a>
-          </li>
-          <li class="res__nav-item">
-            <a href="#" class="res_nav-link">aksiyalar</a>
-          </li>
-          <li class="res__nav-item">
-            <a href="#" class="res_nav-link">kontaktlar</a>
-          </li>
-          <button type="button" class="btn-nav">Ruyhatdan utish</button>
-        </ul>
-      </div>
-      <section class="hero__section">
-        <div class="container">
-          <div class="hero__flex">
-            <div class="hero__flex-left">
-              <span class="hero__flex-border border__sub"></span>
-              <h1 class="hero__flex-heading">Pythonda dasturlash asoslari</h1>
-              <p class="hero__flex-paragriph">
+      <!-- SITE NAVBAR SECTION -->
+      <!-- SITE HEADER HERO SECTION -->
+      <div class="site-header-main">
+        <div class="site-container">
+          <div class="site-hero">
+            <div class="site-left">
+              <hr class="bars-bottom" />
+              <h1 class="site-heading">Pythonda dasturlash asoslari</h1>
+              <p class="site-paragriph">
                 Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal
                 qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar
                 yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali
                 o‘tish mumkin.
               </p>
-              <button class="btn-check">Buyurtma berish</button>
+              <button class="site-btn">Buyurtma berish</button>
             </div>
-            <div class="hero__flex-right">
-              <picture>
-                <img src="img/python-book.png" alt="" />
-              </picture>
+            <div class="site-right">
+              <img src="img/python-book.png" alt="" />
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <!-- SITE HEADER HERO SECTION -->
     </header>
-    <!-- HEADER SECTION STRUCTURA END -->
+    <!-- SITE HEADER / END / -->
 
-    <!-- MAIN SECTION STRUCTURA START -->
-    <main class="site__main">
-      <div class="container">
-        <!-- site__main-about -->
-        <section class="site__main-about">
-          <span class="hero__flex-border border__sub"></span>
-          <h2 class="main__about-heading">Nega aynan Akademnashr?</h2>
-          <div class="main__about-group__our">
-            <div class="main-rows">
-              <picture class="picture-bg">
-                <img src="img/cursor-click.svg" alt="picture of web site" />
-              </picture>
-              <h3 class="main__rows-heading">Oson buyurtma qilish</h3>
-              <p class="main__rows-paragriph">
+    <!-- MAIN SECTION -->
+    <main class="site-main">
+      <div class="site-container">
+        <section class="site-section">
+          <hr class="bars-bottom-section" />
+          <h2 class="site-main-h2">Nega aynan Akademnashr?</h2>
+          <div class="site-body-card">
+            <div class="site-card">
+              <div class="border-rounded">
+                <img
+                  src="img/cursor-click.svg"
+                  class="card-section-img"
+                  alt=""
+                />
+              </div>
+              <h3>Oson buyurtma qilish</h3>
+              <p>
                 Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda
                 buyurtma qila olasiz.
               </p>
             </div>
-            <div class="main-rows">
-              <picture class="picture-bg">
-                <img src="img/sparkles.svg" alt="picture of web site" />
-              </picture>
-              <h3 class="main__rows-heading">Eng sara kitoblar</h3>
-              <p class="main__rows-paragriph">
+            <div class="site-card">
+              <div class="border-rounded">
+                <img src="img/sparkles.svg" class="card-section-img" alt="" />
+              </div>
+              <h3>Eng sara kitoblar</h3>
+              <p>
                 Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har
                 xil janrdagi kitoblarni topa olasiz.
               </p>
             </div>
-            <div class="main-rows">
-              <picture class="picture-bg">
-                <img src="img/lightning-bolt.svg" alt="picture of web site" />
-              </picture>
-              <h3 class="main__rows-heading">Tez yetkazib berish</h3>
-              <p class="main__rows-paragriph">
+            <div class="site-card">
+              <div class="border-rounded">
+                <img
+                  src="img/lightning-bolt.svg"
+                  class="card-section-img"
+                  alt=""
+                />
+              </div>
+              <h3>Tez yetkazib berish</h3>
+              <p>
                 O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro
                 buyurtmalarni 10 ish kuni ichida yetkazib beriladi.
               </p>
             </div>
           </div>
         </section>
-        <!-- site__main-about -->
-        <!-- action__main-page -->
-        <section class="action__main-page">
-          <div class="action__left">
-            <h2 class="action__left-heading">
-              Bolalar kitoblari uchun ajoyib aksiya!
-            </h2>
-            <p class="action__left-paragriph">
+        <!-- SITE ACTION MENU -->
+        <section class="site-action-rm">
+          <div class="site-action-left">
+            <h3>Bolalar kitoblari uchun ajoyib aksiya!</h3>
+            <p class="site-action-paragriph">
               Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun
               turli mashq qo’llanmalari va komikslar.
             </p>
-            <p class="action__left-paragriph">
-              Aksiyadagi eng katta to’plamda <span>50 ta kitob</span>ni
-              <span>350 ming</span>
-              so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
+            <p class="site-action-paragriph">
+              Aksiyadagi eng katta to’plamda 50 ta kitobni 350 ming so’mga
+              (aslida 383 ming so’m) sotib olishingiz mumkin.
             </p>
-            <button class="action__left-btn">Buyurtma berish</button>
+            <button class="site-btn">Buyurtma berish</button>
           </div>
-          <div class="action__right">
-            <img src="img/sale-img.jpg" alt="sales images" />
+          <div class="site-action-right">
+            <img src="img/sale-img@2x.jpg" width="440" height="440" alt="" />
           </div>
         </section>
-        <!-- action__main-page -->
+        <!-- SITE ACTION MENU -->
       </div>
     </main>
-    <!-- MAIN SECTION STRUCTURA END -->
-
-    <!-- FOOTER SECTION STRUCTURA START -->
-
-    <!-- FOOTER SECTION STRUCTURA END -->
+    <!-- MAIN SECTION -->
+    <!-- FOOTER SECTION -->
+    <footer class="site-footer">
+      <div class="site-container">
+        <div class="site-foot-nav">
+          <div class="logo-foot">
+            <img src="img/logo-site.svg" alt="site logo" />
+          </div>
+          <ol class="site-socails">
+            <li class="socails-items">
+              <a href="#" class="socails-link">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+            </li>
+            <li class="socails-items">
+              <a href="#" class="socails-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li class="socails-items">
+              <a href="#" class="socails-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER SECTION -->
   </body>
 </html>
